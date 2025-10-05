@@ -155,3 +155,65 @@
 
 .floppy-icon {
 }
+
+.dialog {
+  margin: auto;
+  border: none;
+  padding: 30px;
+  outline: 2px solid rgb(0 0 0);
+  max-inline-size: 353px;
+}
+
+.dialog [open] {
+}
+
+.dialog[open] .dialog-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.75);
+}
+
+.floppy-icon {
+}
+
+.dialog__text {
+}
+
+.dialog-button {
+  margin-block-start: 30px;
+  border: none;
+  padding-block: 12px;
+  outline: 2px solid rgb(0 0 0);
+  background-color: transparent;
+  cursor: pointer;
+  min-inline-size: 293px;
+}
+
+@media (width <= 375px) {
+
+  .html-title {
+    font-size: 49px;
+  }
+
+  .closed-title {
+    font-size: 14px;
+  }
+
+  .save-button {
+    flex-direction: column;
+    padding-block: 17px;
+  }
+
+  .dialog {
+    padding-inline: 40px;
+    max-inline-size: 341px;
+  }
+
+  .dialog-button {
+    min-inline-size: 261px;
+  }
+}
