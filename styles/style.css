@@ -101,35 +101,35 @@
   max-block-size: 100%;
 }
 
-.smartPenguin {
+.sepia {
   filter: sepia(100%);
 }
 
-.Penguin {
+.saturate {
   filter: saturate(200%);
 }
 
-.WorkingPenguin {
+.hue-rotate {
   filter: hue-rotate(-90deg);
 }
 
-.laptopPenguin {
+.contrast {
   filter: contrast(150%);
 }
 
-.dancingPenguinMeme {
+.grayscale {
   filter: grayscale(1);
 }
 
-.studentPenguin {
+.vintage {
   filter: saturate(0.85) sepia(0.25) contrast(0.95) brightness(1.02) blur(0.2px);
 }
 
-.tiredPenguin {
-  filter: grayscale(80%);
+.invert {
+  filter: invert(100%);
 }
 
-.shokedPenguin {
+.blur {
   filter: blur(0.1rem);
 }
 

@@ -30,9 +30,6 @@
   transition: fill 0.3s linear;
 }
 
-.like-icon .heart {
-}
-
 /* hoover  состояния*/
 
 .like-icon:hover .core {
