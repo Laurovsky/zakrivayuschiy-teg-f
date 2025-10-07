@@ -25,7 +25,7 @@
         </h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
+          <picture class="card__picture smartPenguin">
             <source srcset="./images/smartPenguin.gif" />
             <img
               loading="lazy"
@@ -68,7 +68,7 @@
         <h3 class="card__header">1 спринт: Я — чистый лист</h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
+          <picture class="card__picture Penguin">
             <source srcset="./images/Penguin.gif" />
             <img
               loading="lazy"
@@ -113,12 +113,12 @@
         <h3 class="card__header">1 спринт: А если не получится?</h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
-            <source srcset="./images/caravan.png" />
+          <picture class="card__picture WorkingPenguin">
+            <source srcset="./images/WorkingPenguin.gif" />
             <img
               loading="lazy"
-              alt="Дом на колесах на фоне ночного леса"
-              src="./images/caravan.png"
+              alt="Пингвин усердно что-то пишет за клавиатурой"
+              src="./images/WorkingPenguin.gif"
             />
           </picture>
         </div>
@@ -155,12 +155,12 @@
         <h3 class="card__header">2 спринт: Погоня за идеалом</h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
-            <source srcset="./images/caravan.png" />
+          <picture class="card__picture laptopPenguin">
+            <source srcset="./images/laptopPenguin.gif" />
             <img
               loading="lazy"
-              alt="Дом на колесах на фоне ночного леса"
-              src="./images/caravan.png"
+              alt="Пингвин работает за ноутбуком"
+              src="./images/laptopPenguin.gif"
             />
           </picture>
         </div>
@@ -199,12 +199,12 @@
         <h3 class="card__header">2 спринт: О тех, кто рядом</h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
-            <source srcset="./images/caravan.png" />
+          <picture class="card__picture dancingPenguinMeme">
+            <source srcset="./images/dancingPenguinMeme.gif" />
             <img
               loading="lazy"
-              alt="Дом на колесах на фоне ночного леса"
-              src="./images/caravan.png"
+              alt="Три пингвина на лодке, один танцует остальные гребут"
+              src="./images/dancingPenguinMeme.gif"
             />
           </picture>
         </div>
@@ -243,12 +243,12 @@
         <h3 class="card__header">3 спринт: Обходные стратегии</h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
-            <source srcset="./images/caravan.png" />
+          <picture class="card__picture studentPenguin">
+            <source srcset="./images/studentPenguin.gif" />
             <img
               loading="lazy"
-              alt="Дом на колесах на фоне ночного леса"
-              src="./images/caravan.png"
+              alt="Пингвин среди книг работает над задачей"
+              src="./images/studentPenguin.gif"
             />
           </picture>
         </div>
@@ -285,12 +285,12 @@
         <h3 class="card__header">3 спринт: Когда опускаются руки</h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
-            <source srcset="./images/caravan.png" />
+          <picture class="card__picture tiredPenguin">
+            <source srcset="./images/tiredPenguin.gif" />
             <img
               loading="lazy"
-              alt="Дом на колесах на фоне ночного леса"
-              src="./images/caravan.png"
+              alt="Уставший пингвин у которого кипят мозги и из ушей идет пар"
+              src="./images/tiredPenguin.gif"
             />
           </picture>
         </div>
@@ -328,12 +328,12 @@
         <h3 class="card__header">«Сейчас я здесь»</h3>
         <div class="picture-wrapper">
           <span class="picture-label">&lt;/HTML&gt;</span>
-          <picture class="card__picture">
-            <source srcset="./images/caravan.png" />
+          <picture class="card__picture shokedPenguin">
+            <source srcset="./images/shokedPenguin.gif" />
             <img
               loading="lazy"
               alt="Дом на колесах на фоне ночного леса"
-              src="./images/caravan.png"
+              src="./images/shokedPenguin.gif"
             />
           </picture>
         </div>
@@ -376,14 +376,14 @@
         aria-controls="dialog-id"
       >
         <svg class="floppy-icon" viewBox="0 0 40 40" width="21" height="21">
-          <use href="svg/floppy.svg#floppy" />
+          <use href="#floppy" />
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
       <dialog class="dialog" id="dialog-id">
         <div class="dialog-wrapper">
           <svg class="floppy-icon" viewBox="0 0 39 39" width="39" height="39">
-            <use href="svg/floppy.svg#floppy" />
+            <use href="#floppy" />
           </svg>
           <span class="button__text"
             >Вставьте<br />
@@ -401,3 +401,14 @@
     <script src="./scripts/like.js"></script>
   </body>
 </html>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+>
+  <symbol id="floppy" 
+    fill="none" 
+    viewBox="0 0 40 40"
+    class="floppy"
+  >
+    <path fill="currentColor" d="M.5.5h3v3h-3zM.5 3.5h3v3h-3zM.5 6.5h3v3h-3zM.5 9.5h3v3h-3zM.5 12.5h3v3h-3zM.5 15.5h3v3h-3zM.5 18.5h3v3h-3zM.5 21.5h3v3h-3zM.5 24.5h3v3h-3zM.5 27.5h3v3h-3zM.5 30.5h3v3h-3zM.5 33.5h3v3h-3zM.5 36.5h3v3h-3zM33.5.5v3h-3v-3zM30.5.5v3h-3v-3zM27.5.5v3h-3v-3zM24.5.5v3h-3v-3zM21.5.5v3h-3v-3zM18.5.5v3h-3v-3zM15.5.5v3h-3v-3zM12.5.5v3h-3v-3zM9.5.5v3h-3v-3zM6.5.5v3h-3v-3zM36.5 3.5v3h-3v-3zM9.5 6.5v3h-3v-3zM9.5 3.5v3h-3v-3zM9.5 9.5v3h-3v-3zM30.5 6.5v3h-3v-3zM30.5 3.5v3h-3v-3zM30.5 9.5v3h-3v-3zM24.5 6.5v3h-3v-3zM24.5 3.5v3h-3v-3zM24.5 9.5v3h-3v-3zM30.5 12.5v3h-3v-3zM27.5 12.5v3h-3v-3zM24.5 12.5v3h-3v-3zM21.5 12.5v3h-3v-3zM18.5 12.5v3h-3v-3zM15.5 12.5v3h-3v-3zM12.5 12.5v3h-3v-3zM9.5 12.5v3h-3v-3zM33.5 21.5v3h-3v-3zM30.5 21.5v3h-3v-3zM27.5 21.5v3h-3v-3zM24.5 21.5v3h-3v-3zM21.5 21.5v3h-3v-3zM18.5 21.5v3h-3v-3zM15.5 21.5v3h-3v-3zM12.5 21.5v3h-3v-3zM9.5 21.5v3h-3v-3zM33.5 24.5v3h-3v-3zM9.5 24.5v3h-3v-3zM33.5 27.5v3h-3v-3zM9.5 27.5v3h-3v-3zM33.5 30.5v3h-3v-3zM9.5 30.5v3h-3v-3zM9.5 33.5v3h-3v-3zM33.5 33.5v3h-3v-3zM36.5 36.5v3h-3v-3zM33.5 36.5v3h-3v-3zM30.5 36.5v3h-3v-3zM27.5 36.5v3h-3v-3zM24.5 36.5v3h-3v-3zM21.5 36.5v3h-3v-3zM18.5 36.5v3h-3v-3zM15.5 36.5v3h-3v-3zM12.5 36.5v3h-3v-3zM9.5 36.5v3h-3v-3zM6.5 36.5v3h-3v-3zM39.5 39.5h-3v-3h3zM39.5 36.5h-3v-3h3zM39.5 33.5h-3v-3h3zM39.5 30.5h-3v-3h3zM39.5 27.5h-3v-3h3zM39.5 24.5h-3v-3h3zM39.5 21.5h-3v-3h3zM39.5 18.5h-3v-3h3zM39.5 15.5h-3v-3h3zM39.5 12.5h-3v-3h3zM39.5 9.5h-3v-3h3z"/>
+    </symbol>
+</svg>
