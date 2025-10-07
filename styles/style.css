@@ -92,7 +92,7 @@
   }
 }
 
-.card__picture img {
+.card__picture {
   display: block;
   margin-block-end: 27px;
   object-fit: cover;
