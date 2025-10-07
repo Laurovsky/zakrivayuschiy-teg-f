@@ -124,11 +124,7 @@
 }
 
 .vintage {
-  filter: brightness(1.02) opacity(85%);
-}
-
-.invert {
-  filter: invert(100%);
+  filter: saturate(0.85) sepia(0.25) contrast(0.95) brightness(1.02) blur(0.2px);
 }
 
 .blur {
