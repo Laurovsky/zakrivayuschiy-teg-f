@@ -45,11 +45,12 @@
 
 .html-title {
   margin-block-start: 130px;
-  font-size: 65px;
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
 .closed-title {
   margin-block-end: 130px;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }
 
 .section {
@@ -123,7 +124,7 @@
 }
 
 .vintage {
-  filter: saturate(0.85) sepia(0.25) contrast(0.95) brightness(1.02) blur(0.2px);
+  filter: brightness(1.02) opacity(85%);
 }
 
 .invert {
@@ -143,6 +144,7 @@
 .card__button-wrapper {
   display: flex;
   justify-self: end;
+  justify-content: flex-end;
   gap: 12px;
   margin-inline-end: 25px;
   margin-block-end: 25px;
@@ -259,14 +261,6 @@
 }
 
 @media (width <= 375px) {
-
-  .html-title {
-    font-size: 49px;
-  }
-
-  .closed-title {
-    font-size: 14px;
-  }
 
   .save-button {
     flex-direction: column;
