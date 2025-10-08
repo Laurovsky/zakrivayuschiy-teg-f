@@ -171,24 +171,18 @@
   inline-size: 138px;
 }
 
-.card__like-button,
-.save-button,
-.dialog-button {
+.button {
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
 }
 
-.card__like-button:focus-visible,
-.save-button:focus-visible,
-.dialog-button:focus-visible {
+.button:focus-visible {
   box-shadow: 2px 2px 0 0 rgb(0 0 0);
   outline: none;
 }
 
-.card__like-button::before,
-.save-button::before,
-.dialog-button::before {
+.button::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -199,9 +193,7 @@
   transform-origin: left top;
 }
 
-.card__like-button:hover::before,
-.save-button:hover::before,
-.dialog-button:hover::before {
+.button:hover::before {
   transform: scale(1) translateX(0);
 }
 
