@@ -17,17 +17,17 @@
 }
 
 .like-icon .contour {
-  transition: fill 0.1s linear;
+  transition: fill 0.1s linear 0s;
 }
 
 .like-icon .core {
   fill: transparent;
-  transition: fill 0.1s linear 0.03s;
+  transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon .main-body {
   fill: transparent;
-  transition: fill 0.3s linear;
+  transition: fill 0.3s linear 0s;
 }
 
 /* hoover  состояния*/
